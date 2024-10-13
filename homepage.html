@@ -1,11 +1,81 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Payoo Homepage</title>
+
+    <!-- Daisy connect -->
+
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.13/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
+
 <body>
-    Welcome Home
+    <main>
+        <div class="flex justify-center">
+            <div class="mockup-phone border-secondary">
+                <div class="camera"></div>
+                <div class="display">
+                    <div class="artboard artboard-demo phone-5">
+
+                        <!-- balance section -->
+                        <div class="balance-sec">
+                            <div class="stats shadow">
+                                <div class="stat">
+                                    <div class="stat-value">9400</div>
+                                    <div class="stat-desc">Available Balance</div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <!-- balance end -->
+                        <div class="divider"></div>
+                        <!-- button sec start -->
+                        <div class="grid grid-cols-3 gap-2 justify-center px-2 py-2">
+                            <button class="btn btn-lg">Add Money</button>
+                            <button class="btn btn-lg">Cash Out</button>
+                            <button class="btn btn-lg">Transfer Money</button>
+                            <button class="btn btn-lg">Get Bonus</button>
+                            <button class="btn btn-lg">Pay Bills</button>
+                            <button class="btn btn-lg">Transactions</button>
+                        </div>
+                        <!-- button sec end -->
+                        
+                        <div class="divider"></div>
+                        
+                        <!-- add money options -->
+                        <div class="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
+                            <form class="card-body">
+                              <div class="form-control">
+                                <label class="label">
+                                  <span class="label-text">Account Number</span>
+                                </label>
+                                <input type="text" placeholder="Your account number" class="input input-bordered" required />
+                              </div>
+                              <div class="form-control">
+                                <label class="label">
+                                  <span class="label-text">Amount</span>
+                                </label>
+                                <input type="text" placeholder="Enter amount" class="input input-bordered" required />
+                              </div>
+                              <div class="form-control">
+                                <label class="label">
+                                  <span class="label-text">Pin</span>
+                                </label>
+                                <input type="password" placeholder="Enter pin" class="input input-bordered" required />
+                              </div>
+                              <div class="form-control mt-6">
+                                <button class="btn btn-primary">Add Money</button>
+                              </div>
+                            </form>
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
 </body>
+
 </html>

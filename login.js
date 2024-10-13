@@ -8,7 +8,7 @@ document.getElementById('login-btn').addEventListener('click', function (event) 
     let ogNumber =01744842814;
     let ogPin = 1111;
     if (number == ogNumber && pin == ogPin) {
-        window.location.href='/homepage.html'
+        window.location.href='/homepage.html';
 
     }
     else{
