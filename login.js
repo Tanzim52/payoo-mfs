@@ -9,7 +9,6 @@ document.getElementById('login-btn').addEventListener('click', function (event) 
     let ogPin = 1111;
     if (number == ogNumber && pin == ogPin) {
         window.location.href='/homepage.html';
-
     }
     else{
         alert('Wrong num or pin')
